@@ -1,0 +1,57 @@
+:root {
+  --cor-fundo: Azure;
+  --cor-titulo: Teal;
+  --cor-subtitulo: Peru;
+  --cor-corpo: DarkSlateGray;
+
+  --cor-link-inicial: RoyalBlue;
+  --cor-link-sobre: CornflowerBlue;
+  --cor-link-ativo: DarkRed;
+  --cor-link-visitado: MidnightBlue;
+}
+
+
+
+body{
+	color: var(--cor-corpo);
+	background-color: var(--cor-fundo);
+
+	font-family: sans-serif;
+	
+}
+
+
+
+h1,h2{
+	color: var(--cor-titulo);
+	font-variant: small-caps;
+}
+
+h3{
+	color: var(--cor-subtitulo);
+	font-variant: small-caps;
+}
+
+
+
+a{
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+a:link{
+	color: var(--cor-link-inicial);
+}
+
+a:hover{
+	color: var(--cor-link-sobre);
+}
+
+a:active{
+	color: var(--cor-link-ativo);
+}
+
+a:visited{
+	color: var(--cor-link-visitado);
+}
+

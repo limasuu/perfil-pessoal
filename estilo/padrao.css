@@ -62,9 +62,7 @@ a:visited{
 
 
 
-nav ul li{
-
-	 
+nav ul li{	 
 	border-style:groove; 
 	border-color: var(--cor-sec3);
 	background-color: var(--cor-sec2);
@@ -72,5 +70,28 @@ nav ul li{
 
 ul{
 	list-style-type: none;
+}
+
+
+
+table{
+	box-shadow: 10px 10px 5px #888888;
+	
+	border-collapse: collapse;
+
+	width: 50%;
+	text-align: center;
+	vertical-align: middle;
+
+	color: var(--cor-base);
+}
+
+thead{
+	background-color: var(--cor-prin2);
+	font-weight: bold;
+}
+
+tbody{
+	background-color: var(--cor-prin1);
 }
 

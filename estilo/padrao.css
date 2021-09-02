@@ -1,20 +1,25 @@
 :root {
-  --cor-fundo: Azure;
-  --cor-titulo: Teal;
-  --cor-subtitulo: Peru;
-  --cor-corpo: DarkSlateGray;
+	--cor-base: Azure;
 
-  --cor-link-inicial: RoyalBlue;
-  --cor-link-sobre: CornflowerBlue;
-  --cor-link-ativo: DarkRed;
-  --cor-link-visitado: MidnightBlue;
+	--cor-prin1: Teal;
+	--cor-prin2: DarkSlateGray;
+
+	--cor-sec1: Peru;
+	--cor-sec2: Wheat;
+	--cor-sec3: Burlywood;
+
+
+	--cor-link-inicial: RoyalBlue;
+	--cor-link-sobre: CornflowerBlue;
+	--cor-link-ativo: DarkRed;
+	--cor-link-visitado: MidnightBlue;
 }
 
 
 
 body{
-	color: var(--cor-corpo);
-	background-color: var(--cor-fundo);
+	color: var(--cor-prin2);
+	background-color: var(--cor-base);
 
 	font-family: sans-serif;
 	
@@ -23,12 +28,12 @@ body{
 
 
 h1,h2{
-	color: var(--cor-titulo);
+	color: var(--cor-prin1);
 	font-variant: small-caps;
 }
 
 h3{
-	color: var(--cor-subtitulo);
+	color: var(--cor-sec1);
 	font-variant: small-caps;
 }
 
@@ -53,5 +58,19 @@ a:active{
 
 a:visited{
 	color: var(--cor-link-visitado);
+}
+
+
+
+nav ul li{
+
+	 
+	border-style:groove; 
+	border-color: var(--cor-sec3);
+	background-color: var(--cor-sec2);
+}
+
+ul{
+	list-style-type: none;
 }
 

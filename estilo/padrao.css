@@ -23,12 +23,30 @@ body{
 
 	font-family: sans-serif;	
 
+	margin: 0px;	
+	
 	display: flex;
 	flex-direction: column;
 }
 
 .item-body{
 	display: flex;	
+}
+
+footer{
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+
+	background-color: var(--cor-sec2);
+}
+
+footer ul{
+	margin: 10px;
+}
+
+footer ul li{
+	font-size: small;
 }
 
 

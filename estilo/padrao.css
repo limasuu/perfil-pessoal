@@ -17,8 +17,7 @@
 	--cor-link-visitado: MidnightBlue;
 }
 
-
-
+/*--------------------------------------------------------------*/
 body{
 	color: var(--cor-prin2);
 	background-color: var(--cor-base);
@@ -35,6 +34,7 @@ body{
 	display: flex;
 }
 
+/*--------------------------------------------------------------*/
 header{
 	align-items:  center;
 	padding: 10px 10px 10px 15px;	
@@ -60,6 +60,29 @@ header h1{
 	font-size: 300%;
 }	
 
+/*--------------------------------------------------------------*/
+nav{
+	width: 25%;
+}
+
+nav ul{
+	padding: 0px;
+	margin: 0px;
+	border-top: 1px solid var(--cor-sec3);
+}
+
+nav ul li{	 
+	padding: 5px;
+
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	border-color: var(--cor-sec3);
+
+	background-color: var(--cor-sec2);
+	text-align: center;
+}
+
+/*--------------------------------------------------------------*/
 footer{
 	display: flex;
 	justify-content: flex-end;
@@ -76,7 +99,7 @@ footer ul li{
 	font-size: small;
 }
 
-
+/*--------------------------------------------------------------*/
 
 
 h1,h2{
@@ -112,18 +135,10 @@ a:visited{
 	color: var(--cor-link-visitado);
 }
 
-
-
-nav ul li{	 
-	padding: 5px;
-	border: 1px solid var(--cor-sec3);
-	background-color: var(--cor-sec2);
-}
-
 ul{
 	list-style-type: none;
-	margin: 20px;	
 }
+
 
 
 

@@ -21,9 +21,16 @@ body{
 	color: var(--cor-prin2);
 	background-color: var(--cor-base);
 
-	font-family: sans-serif;
-	
+	font-family: sans-serif;	
+
+	display: flex;
+	flex-direction: column;
 }
+
+.item-body{
+	display: flex;	
+}
+
 
 
 
@@ -63,13 +70,14 @@ a:visited{
 
 
 nav ul li{	 
-	border-style:groove; 
-	border-color: var(--cor-sec3);
+	padding: 5px;
+	border: 1px solid var(--cor-sec3);
 	background-color: var(--cor-sec2);
 }
 
 ul{
 	list-style-type: none;
+	margin: 20px;	
 }
 
 
@@ -84,6 +92,7 @@ table{
 	vertical-align: middle;
 
 	color: var(--cor-base);
+
 }
 
 thead{

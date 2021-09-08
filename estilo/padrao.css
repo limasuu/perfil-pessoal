@@ -94,7 +94,7 @@ nav ul li{
 	text-indent: 15px;
 }
 
-.amostra-capas{
+.sub-item-main{
 	display: flex;
 	justify-content: center;	
 }
@@ -150,6 +150,42 @@ nav ul li{
 	font-size: small;
 }
 
+/*--------------------------------------------------------------*/
+table{
+	width: 80%;
+
+	margin: 20px;
+	
+	text-align: center;
+	vertical-align: middle;
+
+/*	box-shadow: 10px 10px 5px #888888;*/
+	
+	border-collapse: collapse;
+
+	color: var(--cor-base);
+}
+
+thead{
+	background-color: var(--cor-prin2);
+	font-weight: bold;
+}
+
+tbody{
+	background-color: var(--cor-prin1);	
+}
+
+td{	
+	padding: 5px;
+
+	border-width: 0px 2px 0px 0px;
+	border-style: solid;
+	border-color: var(--cor-prin2);
+}
+
+table:last-child {
+	border-style: hidden;
+}
 
 /*--------------------------------------------------------------*/
 footer{
@@ -223,25 +259,5 @@ ul{
 
 
 
-table{
-	box-shadow: 10px 10px 5px #888888;
-	
-	border-collapse: collapse;
 
-	width: 50%;
-	text-align: center;
-	vertical-align: middle;
-
-	color: var(--cor-base);
-
-}
-
-thead{
-	background-color: var(--cor-prin2);
-	font-weight: bold;
-}
-
-tbody{
-	background-color: var(--cor-prin1);
-}
 

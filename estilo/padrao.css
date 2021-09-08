@@ -94,12 +94,12 @@ nav ul li{
 	text-indent: 15px;
 }
 
-/*--------------------------------------------------------------*/
 .amostra-capas{
 	display: flex;
 	justify-content: center;	
 }
 
+/*--------------------------------------------------------------*/
 .livros{
 	width: 80%;
 
@@ -127,24 +127,27 @@ nav ul li{
 
 /*--------------------------------------------------------------*/
 .filmes{
+	width: 80%;
+
+	padding: 0px;
+	margin: 0px;
+
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;	
 }
 
 .item-filmes{
 	display: flex;
 	flex-direction: column;
-
 	align-items: center;
 }
 
-.item-filmes a{
-	display: flex;
-	justify-content: center;	
+.item-filmes a img{
+	width: 160px;
 }
 
-.item-filmes a img{
-	width: 50%;	
+.item-filmes p{
+	font-size: small;
 }
 
 

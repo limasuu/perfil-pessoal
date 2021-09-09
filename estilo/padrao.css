@@ -35,7 +35,7 @@ body{
 /*--------------------------------------------------------------*/
 header{
 	align-items:  center;
-	padding: 10px 10px 10px 15px;	
+	padding: 10px 10px 10px 50px;	
 
 	position: fixed;
     top: 0;
@@ -63,7 +63,9 @@ header img{
 header h1{
 	font-family: 'Parisienne', cursive;
 	font-variant: normal;
-	font-size: 300%;
+	font-size: 400%;
+
+	padding: 0px 0px 0px 40px;	
 }	
 
 /*--------------------------------------------------------------*/
@@ -165,7 +167,7 @@ table{
 	text-align: center;
 	vertical-align: middle;
 
-/*	box-shadow: 10px 10px 5px #888888;*/
+	box-shadow: 10px 10px 5px #888888;
 	
 	border-collapse: collapse;
 

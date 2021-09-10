@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 :root {
-	--cor-base: Azure;
+	--verde-muito-claro: Azure;
+	--verde-claro: #D3F4F0;
+	--verde-medio: #9EDED7;
+	--verde-escuro: #2A887E;
+	--verde-muito-escuro: DarkSlateGray;
 
-	--cor-prin1: Teal;
-	--cor-prin2: DarkSlateGray;
+	--amarelo-claro: #FFF2D8;
+	--amarelo-medio: #AF7F27;
+	--amarelo-escuro: #97660B;
 
-	--cor-sec1: Peru;
-	--cor-sec2: Wheat;
-	--cor-sec3: Burlywood;
-
-
-	--cor-link-inicial: RoyalBlue;
-	--cor-link-sobre: CornflowerBlue;
-	--cor-link-ativo: DarkRed;
-	--cor-link-visitado: MidnightBlue;
+	--vermelho-muito-claro: #FB9BA2;
+	--vermelho-claro: #F16D77;
+	--vermelho-medio: #D5424D;
+	--vermelho-escuro: #930B15;
 }
 
 /*--------------------------------------------------------------*/
 body{
-	color: var(--cor-prin2);
-	background-color: var(--cor-base);
+	color: var(--verde-muito-escuro);
+	background-color: var(--verde-muito-claro);
 
 	font-family: sans-serif;	
 
 	margin: 0px;	
-	padding-top: 10%;
+	padding-top: 8.5%;
 }
 
 .item-body{
@@ -35,15 +35,15 @@ body{
 /*--------------------------------------------------------------*/
 header{
 	align-items:  center;
-	padding: 10px 10px 10px 50px;	
+	padding: 2px 10px 2px 50px;	
 
 	position: fixed;
     top: 0;
 	
-	background-color: var(--cor-base);
+	background-color: var(--verde-claro);
 	border-width: 0px 0px 1px 0px;
 	border-style: solid;
-	border-color: var(--cor-prin1);
+	border-color: var(--verde-muito-escuro);
 }
 
 header img, h1{
@@ -57,7 +57,7 @@ header img{
 	border-radius: 50%;
 	overflow: hidden;
 	width: 7%;
-	border: 2px solid var(--cor-prin1);	
+	border: 2px solid var(--verde-escuro);	
 }
 
 header h1{
@@ -70,25 +70,36 @@ header h1{
 
 /*--------------------------------------------------------------*/
 nav{
-	width: 25%;
-	border-right: 2px solid var(--cor-sec3);
+	width: 25%;	
+
+	background-color: var(--verde-escuro);
 }
 
 nav ul{
 	padding: 0px;
 	margin: 0px;
-	border-top: 1px solid var(--cor-sec3);	
 }
 
 nav ul li{	 
-	padding: 5px;
+	padding: 0px;
+	margin: 0px; 
+	display: flex;
 
 	border-width: 0px 1px 1px 1px;
 	border-style: solid;
-	border-color: var(--cor-sec3);
-
-	background-color: var(--cor-sec2);
+	border-color: var(--verde-medio);
+	
 	text-align: center;
+}
+
+nav ul li a{
+	padding: 9px 5px 9px 5px;
+
+	width: 100%;
+}
+
+nav ul li a:hover{	
+	background-color: var(--verde-muito-escuro);
 }
 
 /*--------------------------------------------------------------*/
@@ -171,16 +182,16 @@ table{
 	
 	border-collapse: collapse;
 
-	color: var(--cor-base);
+	color: var(--amarelo-claro);
 }
 
 thead{
-	background-color: var(--cor-prin2);
+	background-color: var(--amarelo-escuro);
 	font-weight: bold;
 }
 
 tbody{
-	background-color: var(--cor-prin1);	
+	background-color: var(--amarelo-medio);	
 }
 
 td{	
@@ -188,7 +199,7 @@ td{
 
 	border-width: 0px 2px 0px 0px;
 	border-style: solid;
-	border-color: var(--cor-prin2);
+	border-color: var(--amarelo-escuro);
 }
 
 table:last-child {
@@ -209,7 +220,7 @@ table:last-child {
 	margin: 10px 0px 10px 0px;
 	padding: 10px 0px 0px 0px;
 
-	border-top: 1px solid var(--cor-prin1);	
+	border-top: 1px solid var(--verde-escuro);	
 
 	text-align: center;	
 }
@@ -220,7 +231,7 @@ footer{
 	justify-content: flex-end;
 	text-align: right;
 
-	background-color: var(--cor-sec2);
+	background-color: var(--verde-escuro);
 }
 
 footer ul{
@@ -229,17 +240,18 @@ footer ul{
 
 footer ul li{
 	font-size: small;
+	color: var(--verde-muito-claro);
 }
 
 /*--------------------------------------------------------------*/
 h1{
-	color: var(--cor-prin1);
+	color: var(--verde-escuro);
 	font-variant: small-caps;
 }
 
 h2{
-	background-color: var(--cor-prin1);
-	color: var(--cor-base);
+	background-color: var(--verde-escuro);
+	color: var(--verde-muito-claro);
 	font-variant: small-caps;
 
 	margin: 0px;
@@ -247,16 +259,16 @@ h2{
 }
 
 h3{
-	color: var(--cor-sec1);
+	color: var(--amarelo-medio);
 	font-variant: small-caps;
 
 	margin: 0px;
 	padding: 10px 0px 0px 20px;
 }
 
-
-
-
+ul{
+	list-style-type: none;
+}
 
 a{
 	font-variant: small-caps;
@@ -264,21 +276,17 @@ a{
 }
 
 a:link{
-	color: var(--cor-link-inicial);
+	color: var(--vermelho-muito-claro);
 }
 
 a:hover{
-	color: var(--cor-link-sobre);
+	color: var(--vermelho-claro);
 }
 
 a:active{
-	color: var(--cor-link-ativo);
+	color: var(--vermelho-medio);
 }
 
 a:visited{
-	color: var(--cor-link-visitado);
-}
-
-ul{
-	list-style-type: none;
+	color: var(--vermelho-escuro);
 }

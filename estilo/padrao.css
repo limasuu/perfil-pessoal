@@ -55,7 +55,7 @@ header img{
 	align-items: center;
 	border-radius: 50%;
 	overflow: hidden;
-	width: 7%;
+	width: 20vh;
 	border: 2px solid var(--verde-escuro);	
 }
 
@@ -117,6 +117,10 @@ nav ul li a:hover{
 	justify-content: center;	
 }
 
+.sub-item-main img{
+	width: 160px;
+}
+
 /*--------------------------------------------------------------*/
 .livros{
 	width: 80%;
@@ -126,17 +130,15 @@ nav ul li a:hover{
 
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: baseline;
 }
 
 .item-livros{
+	margin: 2px;
+
 	display: flex;
 	flex-direction: column;	
 	align-items: center;		
-}
-
-.item-livros img{
-	width: 160px;
 }
 
 .item-livros p{
@@ -158,10 +160,6 @@ nav ul li a:hover{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.item-filmes a img{
-	width: 160px;
 }
 
 .item-filmes p{
